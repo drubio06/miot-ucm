@@ -264,4 +264,17 @@ Para el apartado de Machine learning automatizado vamos a realizar el tutorial d
 
 12- En validar y probar vamops a seleccionar validación cruzada de k iteraciones y 2 validaciones cruzadas.
 
-13- Seleccionaremos cluster de proceso como tipo de proceso
+13- Seleccionaremos cluster de proceso como tipo de proceso , seleccionamos Crear y ya tendremos nuestro primer trabajo con ML automatizado creado.
+
+14- Mientras se entrenan los modelos vamos a modelos y trabajos secundarios donde los modelos estarán ordenados por puntuación de métrica a medida que se completan. Vamos a ver en el algoritmo con mayor puntuación de métrica y vamos a seleccionar las pestañas Información general y Métricas para obtener información sobre el trabajo. En la pestaña de métrica podremos ver las tablas de precision, la matriz de confusión y una serie de parámetros que nos interesan.
+
+![image](https://github.com/user-attachments/assets/076e3092-f0df-45d6-9afe-051137bb4a2f)
+
+15-En este experimento, la implementación em un servicio web significa que la institución financiera tiene ahora una solución web iterativa y escalable para identificar posibles clientes de depósitos a plazo fijo. Una vez se ha completado el trabajo la página Detalles se rellena con una sección Mejor resumen del modelo. El mejor modelo es VotingEnsemble según la métrica AUCWeighted. Debemos seleccionar dicho modelo e implementarlo.
+
+
+
+16- Una vez lo hayamos hecho ya tenemos un servicio web operativo para generar predicciones.
+
+
+
