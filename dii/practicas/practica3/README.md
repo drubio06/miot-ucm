@@ -278,3 +278,14 @@ Para el apartado de Machine learning automatizado vamos a realizar el tutorial d
 
 
 
+# Referencias
+
+[1] Ssalgadodev. (2024, 12 noviembre). Tutorial: Aprendizaje automático automatizado y entrenamiento de modelos de clasificación sin código - Azure Machine Learning. Microsoft Learn. (https://learn.microsoft.com/es-es/azure/machine-learning/tutorial-first-experiment-automated-ml?view=azureml-api-2)
+
+[2] Ju-Shim. (2024, 15 octubre). Guía de inicio rápido: creación de una máquina virtual Windows en Azure Portal - Azure Virtual Machines. Microsoft Learn. (https://learn.microsoft.com/es-es/azure/virtual-machines/windows/quick-create-portal)
+
+[3] SudheeshGH. (s. f.). Documentación de Azure Database for MySQL. Microsoft Learn. (https://learn.microsoft.com/es-es/azure/mysql/)
+
+[4] Azure Machine Learning: ML como servicio | Microsoft Azure. (s. f.). https://azure.microsoft.com/es-es/products/machine-learning  
+
+[5] Inteligencia como servicio: Computación en la nube (2024).Diseño de Infraestructura Inteligente para IoT, Samer Hassan (con apoyo de material de Javier Bravo). (https://cvdof.ucm.es/moodle/pluginfile.php/2012915/mod_resource/content/1/Inteligencia%20como%20servicio%20-%20Computacion%20en%20la%20nube.pdf)
