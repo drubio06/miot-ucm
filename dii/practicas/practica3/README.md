@@ -259,6 +259,7 @@ Para el apartado de Machine learning automatizado vamos a realizar el tutorial d
 
 11- Pasamos a la configuración de tareas y rellenamos como en la figura siguiente la configuración adicional.
 
+
 ![image](https://github.com/user-attachments/assets/763db1c8-9c92-42c8-a596-9ad8064d4ff5)
 
 12- En validar y probar vamops a seleccionar validación cruzada de k iteraciones y 2 validaciones cruzadas.
