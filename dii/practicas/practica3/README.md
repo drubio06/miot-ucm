@@ -129,9 +129,7 @@ Como observación podemos volver a comenzar nuestra máquina con el siguiente co
 az vm start --resource-group dii-p3-pd --name dii-p3-pd
 ```
 
-# P22
 
-# Parte 2
 
 ## Parte 2b
 
@@ -230,3 +228,39 @@ Vemos como tenemos una vista previa de los datos con los que vamos a trabajar:
 Ahora desde la máquina virtual vamos a generar una gráfica en la que el eje de las abscisas tendremos el tiempo y en el eje de las ordenadas tendremos los accidentes en los que los coductores han dado positivo en consumo de alcohol o drogas.
 
 ![BD13](https://github.com/user-attachments/assets/156cf506-10df-42bb-af11-3b1622c8e4b5)
+
+Para el apartado de Machine learning automatizado vamos a realizar el tutorial de inicialización para el entrenamiento de un modelo de clasificación con aprendizaje automático automatizado sin código en el Estudio de Azure Machine Learning:
+
+1- Descargamos el archivo de datos bankmarketing_train.csv
+
+2- Creamos un nuevo área de trabajo siguiendo las siguientes especificaciones:
+
+![image](https://github.com/user-attachments/assets/f72760c2-c26c-48fe-a447-bc176e397a29)
+
+3- Vamos a crear un nuevo trabajo de ML automatizado.
+
+![image](https://github.com/user-attachments/assets/9c473875-4a88-44c0-bfe0-4aad4b7eedbf)
+
+4- Le damos nombre al experimento y pasamos a la creación y carga de nuestro conjunto de datos como un recurso de datos.
+
+5- Vamos a Seleccionar datos y pulsamos en Crear, lo primero que haremos en elegir el nombre descripción y tipo de datos. Los datos serán de tipo Tabular.
+
+6- Elegiremos que el origen de los datos sea desde los archivos locales.
+
+7- En el Tipo de almacenamiento de destino, seleccionamos el almacén de datos predeterminado: workspaceblobstore. 
+
+8- Cargamos los datos:
+
+![image](https://github.com/user-attachments/assets/8c097337-00f4-465e-a68a-b2fb2973218b)
+
+9- Pasamos a Configuración donde no haremos cambios y por último paso para crear el recurso de datos a Esquema. Vamos a seleccionar el conmutador de alternancia de la característica day_of_week para excluirla.
+
+10- Una vez pulsamos en crear hemos introducido los datos con los que deseamos trabajar. El tipo de tarea va a ser Clasificación.
+
+11- Pasamos a la configuración de tareas y rellenamos como en la figura siguiente la configuración adicional.
+
+![image](https://github.com/user-attachments/assets/763db1c8-9c92-42c8-a596-9ad8064d4ff5)
+
+12- En validar y probar vamops a seleccionar validación cruzada de k iteraciones y 2 validaciones cruzadas.
+
+13- Seleccionaremos cluster de proceso como tipo de proceso
