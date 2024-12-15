@@ -270,9 +270,7 @@ Para el apartado de Machine learning automatizado vamos a realizar el tutorial d
 
 ![image](https://github.com/user-attachments/assets/076e3092-f0df-45d6-9afe-051137bb4a2f)
 
-15-En este experimento, la implementación em un servicio web significa que la institución financiera tiene ahora una solución web iterativa y escalable para identificar posibles clientes de depósitos a plazo fijo. Una vez se ha completado el trabajo la página Detalles se rellena con una sección Mejor resumen del modelo. El mejor modelo es VotingEnsemble según la métrica AUCWeighted. Debemos seleccionar dicho modelo e implementarlo.
-
-
+15-La página Detalles se rellena con la sección Mejor resumen del modelo. El mejor modelo es VotingEnsemble según la métrica AUCWeighted. Seleccionamos dicho modelo y lo implementarlo.
 
 16- Una vez lo hayamos hecho ya tenemos un servicio web operativo para generar predicciones.
 
